@@ -1,4 +1,3 @@
-import { NxWelcomeComponent } from './nx-welcome.component';
 import { RouterModule } from '@angular/router';
 import { Component } from '@angular/core';
 import { BasicFormComponent } from './basic-form/basic-form.component';
