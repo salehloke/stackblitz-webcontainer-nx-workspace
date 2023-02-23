@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "target": "es2022",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    /* Experimental Options */
+    "experimentalDecorators": true,
     "useDefineForClassFields": false,
     "forceConsistentCasingInFileNames": true,
     "strict": true,

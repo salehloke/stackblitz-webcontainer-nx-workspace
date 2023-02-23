@@ -1,10 +1,11 @@
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { RouterModule } from '@angular/router';
 import { Component } from '@angular/core';
+import { BasicFormComponent } from './basic-form/basic-form.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [BasicFormComponent, RouterModule],
   selector: 'my-app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
