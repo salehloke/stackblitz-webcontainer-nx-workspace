@@ -1,0 +1,13 @@
+{
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": [],
+        "accessToken": "YTRkODcwYzEtNzAyOC00MTJlLTlmNGQtYWRmZjA4NzhhYjk4fHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "defaultBase": "master",
+  "defaultProject": "webcontainers-api-starter"
+}
