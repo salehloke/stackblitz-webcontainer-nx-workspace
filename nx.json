@@ -8,6 +8,11 @@
       }
     }
   },
+  "targetDefaults": {
+    "lint": {
+      "inputs": ["{projectRoot}/**/*.ts", "!**/*.md"]
+    }
+  },
   "defaultBase": "master",
   "defaultProject": "webcontainers-api-starter"
 }
