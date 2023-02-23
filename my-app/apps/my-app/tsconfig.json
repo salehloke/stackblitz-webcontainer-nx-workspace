@@ -3,11 +3,12 @@
     "target": "es2022",
     "outDir": "./dist",
     "rootDir": "./src",
+    "strictPropertyInitialization": false,
     /* Experimental Options */
     "experimentalDecorators": true,
     "useDefineForClassFields": false,
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "strict": false,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,

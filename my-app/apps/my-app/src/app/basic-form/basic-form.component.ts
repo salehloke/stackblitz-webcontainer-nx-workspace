@@ -1,8 +1,15 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import {
+  FormBuilder,
+  FormGroup,
+  FormsModule,
+  ReactiveFormsModule,
+} from '@angular/forms';
 
 @Component({
   standalone: true,
+  imports: [BasicFormComponent, CommonModule, FormsModule, ReactiveFormsModule],
   selector: 'my-app-basic-form',
   templateUrl: './basic-form.component.html',
   styleUrls: ['./basic-form.component.scss'],
